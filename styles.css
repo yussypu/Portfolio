@@ -32,6 +32,15 @@ section {
 
 section h2 {
   color: #333;
+  cursor: pointer;
+}
+
+section .content {
+  display: none;
+}
+
+section.active .content {
+  display: block;
 }
 
 section ul {
