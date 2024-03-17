@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
   sections.forEach(section => {
     const heading = section.querySelector("h2");
     heading.addEventListener("click", function() {
-      sections.forEach(s => s.classList.remove("active"));
-      section.classList.add("active");
+      section.classList.toggle("active");
     });
   });
 });
+
